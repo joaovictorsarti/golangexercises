@@ -1,0 +1,15 @@
+TYPES:
+A type determines a set of values together with operations and methods specific to those values. A type may be denoted by a type name, if it has one, or specified using a type literal, which composes a type from existing types.
+
+Boolean types:
+A boolean type represents the set of Boolean truth values denoted by the predeclared constants true and false. The predeclared boolean type is bool; it is a defined type.
+
+Numeric types:
+A numeric type represents sets of integer or floating-point values.
+
+String types:
+A string type represents the set of string values. A string value is a (possibly empty) sequence of bytes.
+
+Array types:
+An array is a numbered sequence of elements of a single type, called the element type. The number of elements is called the length of the array and is never negative. 
+
