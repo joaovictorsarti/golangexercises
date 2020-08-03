@@ -1,0 +1,24 @@
+curl -O https://storage.googleapis.com/golang/go1.14.4.linux-amd64.tar.gz
+
+sha256sum go1.14.4.linux-amd64.tar.gz
+
+tar -xvf go1.14.4.linux-amd64.tar.gz
+
+sudo chown -R root:root ./go
+sudo mv go /usr/local
+
+~/.profile
+
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+source ~/.profile
+
+mkdir go
+
+mkdir -p go/src/hello && cd go/src/hello
+touch hello.go
+
+go build
+
+./hello
