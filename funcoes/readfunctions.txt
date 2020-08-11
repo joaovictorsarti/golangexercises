@@ -1,0 +1,25 @@
+ Qual a utilidade de funções?
+    - Abstrair funcionalidade
+    - Reutilização de código
+- func (receiver) identifier(parameters) (returns) { code }
+- A diferença entre parâmetros e argumentos:
+    - Funções são definidas com parâmetros
+    - Funções são chamadas com argumentos
+- Tudo em Go é *pass by value.*
+    - Pass by reference, pass by copy, ... não.
+- Parâmetro pode ser ...variádico.
+
+
+func (receiver) nome(parameters) (returns) {
+} 
+
+A diferença entre parâmeros e argumentos:
+- Funções são definidas com parâmetros
+- Funções são chamadas com argumentos
+
+PARÂMETRO VARIADICO:
+parametros podem ser variadicos.
+
+Quando eu tiver um parâmetro variádico, o elemento do parâmetro tem que ser o ultimo.
+
+
