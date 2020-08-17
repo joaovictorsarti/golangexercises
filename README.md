@@ -6,3 +6,4 @@ Pra futuramente desenvolver em GO, contribuir com docker e kubernetes.
 
 ![gophers](https://github.com/joaovictorsarti/golangexercises/blob/master/images/go.jpg)
 
+Estudo feito através do curso Aprenda GO - palestrado por Ellen Korbes.
